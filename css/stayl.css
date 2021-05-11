@@ -1,0 +1,188 @@
+#igra{
+	background-image:url(fon3.jpg);
+    background-position: 50% 50%;
+	width: 750px;
+	height: 500px; 
+	margin:0 auto;
+	position: relative;
+	border: 3px solid;
+    overflow: hidden;
+}
+
+
+#startBlok{
+	background-image:url(fon2.jpg);
+	background-position: 44% 28%;
+    width: 750px;
+	height: 500px;
+	margin:0 auto;
+	position: absolute;
+	outline: groove;
+	left: 0px;
+	top: 0px;
+	
+}
+
+
+#blokOkonchanieIgra{
+    background-image:url(fon1.jpg);
+	background-position: 44% 28%;
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	outline: groove;
+	left: 0px;
+	top: 0px;
+    text-align: center;
+    font-size: 25px;
+ 
+}
+ 
+#igraOkonchena{
+	position: relative;
+    left: 172px;
+    top: -26px;
+    color: #0e0590;
+    border-radius: 80px;
+    background-color: #f30863;
+    font-size: 34px;
+    border: 4px double #0f4ad487;
+    width: 340px;
+ 
+}
+
+#rethultatIgra{
+    position: relative;
+    left: 118px;
+    top: 106px;
+    color: #0222bf;
+    border-radius: 80px;
+    background-color: #4caf50c4;
+    font-size: 29px;
+    border: 6px double #f3081c;
+    width: 450px;
+}
+
+
+
+#startKnopka{
+	position: relative;
+    top: 221px;
+    left: 183px;
+    display: block;
+    padding: 19px 51px;
+    font-size: 41px;
+    border-radius: 50px;
+    border: 5px double #231084;
+    color: #073250;
+    background-color: #36daa2d4;
+
+}
+
+.ball{
+	 
+	/* background: red;*/
+	 width: 50px;
+	 height: 50px;
+	 border-radius: 50%;
+	 position: absolute;
+	 top: -100px; /* 0 => 450 - 50  = 400 */
+	 left:-100px;  /* 0 => 720 - 50 =670  */
+	 display: block;
+	 transition: all 1s;
+
+}
+
+.left{
+	 background-image:url(smail1.png);
+	 background-size: contain;
+     top: 530px;
+     left:-80px;  
+}
+
+
+.right{
+	 background-image:url(smail2.png);
+	 background-size: contain;
+	top: 530px;
+	left: 700px;
+}
+
+  
+ .bom{   /* class= "ball bom" */
+    background-image:url(smail5.png);
+	background-size: contain;
+    top: 530px;
+	left: 300px;
+
+ } 
+
+
+ .lif{     /*class= ball lif */ 
+    background-image:url(smail6.png);
+	background-size: contain;
+    top: 530px;
+	left: 350px;
+
+
+ 	}
+
+
+ .bonus{      /*class= ball bonus  */
+    background-image:url(smail4.png);
+	background-size: contain;
+    top: 530px;
+	left: 250px;
+ }	                            
+
+
+
+
+#blokOchki{
+	font-size: 35px;
+	color: #02bf19;
+	font-weight: bold;
+	position: absolute;
+	left: 41px;
+	top: 27px;
+	display: block;
+	transition: all 3s;
+	
+}
+
+#lifes{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display: block;
+	transition: all 3s;
+
+}
+
+
+#spanLife{
+     width: 15px;
+     height: 15px;
+     border-radius: 50%;
+     border: 3px solid #f0b9e6;
+     background: #d40fb3;
+     display:block;
+     float: left;
+
+}
+
+#infoBlok{
+	position: relative;
+    left: 285px;
+    top: -15px;
+    font-size: 20px;
+    color: #150979;
+}
+
+
+
+#taymer{
+	font-size: 50px;
+	color: #f14635;
+
+}
